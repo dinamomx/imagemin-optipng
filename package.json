@@ -1,6 +1,6 @@
 {
-  "name": "imagemin-optipng",
-  "version": "5.2.1",
+  "name": "@dinamomx/imagemin-optipng",
+  "version": "5.2.2",
   "description": "OptiPNG imagemin plugin",
   "license": "MIT",
   "repository": "imagemin/imagemin-optipng",
