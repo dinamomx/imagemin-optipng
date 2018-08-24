@@ -40,9 +40,9 @@
     "png"
   ],
   "dependencies": {
-    "exec-buffer": "^3.0.0",
-    "is-png": "^1.0.0",
-    "optipng-bin": "^4.0.0"
+    "exec-buffer": "^3.2.0",
+    "is-png": "^1.1.0",
+    "@dinamomx/optipng-bin": "^4.0.2"
   },
   "devDependencies": {
     "ava": "*",

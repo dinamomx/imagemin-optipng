@@ -1,7 +1,7 @@
 'use strict';
 const execBuffer = require('exec-buffer');
 const isPng = require('is-png');
-const optipng = require('optipng-bin');
+const optipng = require('@dinamomx/optipng-bin');
 
 module.exports = opts => buf => {
 	opts = Object.assign({
@@ -20,11 +20,14 @@ module.exports = opts => buf => {
 	}
 
 	const args = [
-		'-strip', 'all',
+		'-strip',
+		'all',
 		'-clobber',
 		'-fix',
-		'-o', opts.optimizationLevel,
-		'-out', execBuffer.output
+		'-o',
+		opts.optimizationLevel,
+		'-out',
+		execBuffer.output
 	];
 
 	if (!opts.bitDepthReduction) {
